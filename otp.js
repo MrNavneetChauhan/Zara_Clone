@@ -28,6 +28,13 @@ var label = document.getElementById("label")
 var checkicon = document.querySelector(".check-icon")
 var gotohome = document.getElementById("goToHome")
 var cnfrm = document.getElementById("cnfrm")
+var userName = JSON.parse(localStorage.getItem("userName"))
+if(userName == null){
+  login.textContent = "LOGIN"
+}else{
+
+  login.textContent = userName
+}
 //=============functionSelection====================//
 function activation(){
     toggleBar.style.display = "block";

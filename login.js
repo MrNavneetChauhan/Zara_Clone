@@ -23,7 +23,13 @@ var email = document.getElementById("email");
 var password = document.getElementById("password");
 var p = document.getElementById("notif")
 var form  = document.querySelector("form");
+var userName = JSON.parse(localStorage.getItem("userName"))
+if(userName == null){
+  login.textContent = "LOGIN"
+}else{
 
+  login.textContent = userName
+}
 
 
 //=============functionSelection====================//
@@ -97,6 +103,7 @@ function goToCartPage(){
              p.textContent = "please check your password"
          }else{
              p.textContent = "";
+             localStorage.setItem("userName",JSON.stringify(zaraUserInfo[i].userName))
              window.location.href = "index.html"
          }
     }

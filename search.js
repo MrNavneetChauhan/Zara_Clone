@@ -42,7 +42,13 @@ var cartcnt = document.getElementById("cartcnt")
 var cartItemCount = JSON.parse(localStorage.getItem("cartItemCount"))
 cartcnt.textContent = cartItemCount
 var fullSearch = document.getElementById("fullSearch")
+var userName = JSON.parse(localStorage.getItem("userName"))
+if(userName == null){
+  login.textContent = "LOGIN"
+}else{
 
+  login.textContent = userName
+}
 //=============functionSelection====================//
 
 function activation(){

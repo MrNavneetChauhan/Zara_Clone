@@ -23,6 +23,13 @@ cartcnt.textContent = cartItemCount
 var conti = document.getElementById("continue")
 var crdn = document.getElementById("crdn");
 var cv = document.getElementById("cv")
+var userName = JSON.parse(localStorage.getItem("userName"))
+if(userName == null){
+    login.textContent = "LOGIN"
+  }else{
+  
+    login.textContent = userName
+  }
 
 
 // var conti = document.getElementById("continue")

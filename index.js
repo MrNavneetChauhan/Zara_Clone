@@ -42,6 +42,15 @@
   var gtwmn = document.getElementById("gtwmn")
   var gtkd = document.getElementById("gtkd")
   var gtlil = document.getElementById("gtlil")
+  
+  var userName = JSON.parse(localStorage.getItem("userName"))
+if(userName == null){
+  login.textContent = "LOGIN"
+}else{
+
+  login.textContent = userName
+}
+  // login.textContent = "login"
   // var inside1 = document.querySelector(".inside1")
 
   //----------------- function section------------------ //

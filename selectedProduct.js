@@ -111,7 +111,13 @@ var basketImg = document.getElementById("basketImg");
 var basketBar = document.getElementById("basketBar");
 
 var productImage = document.getElementById("productImage");
+var userName = JSON.parse(localStorage.getItem("userName"))
+if(userName == null){
+  login.textContent = "LOGIN"
+}else{
 
+  login.textContent = userName
+}
 
 price.textContent = selectedData.price;
 productName.textContent = selectedData.name;

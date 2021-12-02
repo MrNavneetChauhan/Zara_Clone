@@ -38,6 +38,13 @@ var fullSearch = document.getElementById("fullSearch")
 var wmn = document.getElementById("wmn")
 var mn = document.getElementById("mn")
 var kds = document.getElementById("kds")
+var userName = JSON.parse(localStorage.getItem("userName"))
+if(userName == null){
+    login.textContent = "LOGIN"
+  }else{
+  
+    login.textContent = userName
+  }
 
 //=============functionSelection====================//
 
