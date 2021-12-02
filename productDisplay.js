@@ -33,11 +33,7 @@ var fltr = document.getElementById("fltr")
 var filterDiv = document.querySelector(".filterDiv")
 var cartcnt = document.getElementById("cartcnt")
 var cartItemCount = JSON.parse(localStorage.getItem("cartItemCount"))
-if(cartItemCount == null){
-    cartcnt.textContent = 0
-  }else{
-    cartcnt.textContent = cartItemCount
-  }
+cartcnt.textContent = cartItemCount
 var fullSearch = document.getElementById("fullSearch")
 var wmn = document.getElementById("wmn")
 var mn = document.getElementById("mn")

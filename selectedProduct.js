@@ -18,11 +18,8 @@ var login = document.getElementById("login")
 var cart0 = document.getElementById("cart0");
 var help = document.getElementById("help");
 var cartcnt = document.getElementById("cartcnt")
-if(cartItemCount == null){
-  cartcnt.textContent = 0
-}else{
-  cartcnt.textContent = cartItemCount
-}
+var cartItemCount = JSON.parse(localStorage.getItem("cartItemCount"))
+cartcnt.textContent = cartItemCount
 
 //=============functionSelection====================//
 function activation(){
