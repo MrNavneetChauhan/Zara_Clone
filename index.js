@@ -36,7 +36,11 @@
   var cart0 = document.getElementById("cart0")
   var cartcnt = document.getElementById("cartcnt")
   var cartItemCount = JSON.parse(localStorage.getItem("cartItemCount"))
-  cartcnt.textContent = cartItemCount
+  if(cartItemCount == null){
+    cartcnt.textContent = 0
+  }else{
+    cartcnt.textContent = cartItemCount
+  }
   var imageDiv = document.querySelector(".imageDiv")
   var gtmn = document.getElementById("gtmn")
   var gtwmn = document.getElementById("gtwmn")
