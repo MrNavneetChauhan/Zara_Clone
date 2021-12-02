@@ -108,11 +108,12 @@ function goToCartPage(){
           alert("please fill the address area")
       }else{
         alert("You have signup successfully!")
+      window.location.href = "index.html"
          zaraUserInfo.push(zaraUserList)
          console.log(zaraUserInfo)
          localStorage.setItem("zaraUserInfo",JSON.stringify(zaraUserInfo));
-         window.location.href = "login.html"
-      }    
+         
+      }   
   }
 
 
