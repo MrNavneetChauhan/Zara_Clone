@@ -140,11 +140,14 @@ function addItemsToCart(){
  localStorage.setItem("cartStore",JSON.stringify(cartStore))
  cartBtn2.style.display = "block"
  basketBar.style.display = "block"
+
  setTimeout("hideDiv()",2000)
+
 }
 
 function hideDiv(){
   basketBar.style.display = "none"
+  window.location.href = "selectedProduct.html"
 }
 
 function goToCartPage(){
