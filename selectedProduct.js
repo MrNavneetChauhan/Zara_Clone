@@ -19,7 +19,6 @@ var cart0 = document.getElementById("cart0");
 var help = document.getElementById("help");
 var cartcnt = document.getElementById("cartcnt")
 var cartItemCount = JSON.parse(localStorage.getItem("cartItemCount"))
-cartcnt.textContent = cartItemCount
 
 //=============functionSelection====================//
 function activation(){
@@ -141,13 +140,13 @@ function addItemsToCart(){
  cartBtn2.style.display = "block"
  basketBar.style.display = "block"
 
+ cartcnt.textContent = cartItemCount
  setTimeout("hideDiv()",2000)
 
 }
 
 function hideDiv(){
   basketBar.style.display = "none"
-  window.location.href = "selectedProduct.html"
 }
 
 function goToCartPage(){
