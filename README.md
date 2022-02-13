@@ -135,4 +135,10 @@ Already clicked on menu bar, and have different icons on the navbar. And you can
 ![image](https://user-images.githubusercontent.com/93375038/153739352-0b1170c5-a812-4925-96db-99a11dcaf26f.png)
 
                                                               
+                                                                 **Payment Page**
+**after cart page you will be redirected to payment page, where you have to select type of card first then you have to filled all the credentials and it should be valid in case of length. like card number should be of 16 digit and cvv code should be of 3 digit. and after this all , it will take you to otp page. where you have to enter any random otp and it your order will finally booked successfuly, Now you can also go back to home or can exit.**
+
+![image](https://user-images.githubusercontent.com/93375038/153739491-23718af2-d88b-4e08-82c2-d6d73d73cc5a.png)
+
+
 
