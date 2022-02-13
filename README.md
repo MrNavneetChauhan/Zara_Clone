@@ -38,7 +38,7 @@ Group-Members:4
     <tr>
           <td>2</td>
           <td>SignIn</td>
-          <td>valdation at each input</td>
+          <td>validation at each input</td>
     </tr>
     <tr>
          <td>3</td>
@@ -85,50 +85,56 @@ Group-Members:4
 
                                                 **Introduction to Landing Page**
 
-**There are different tags on the search bar based on your search result , if you click them it will show result according to them (tags:- All,coding,Memes,css,etc just below the search bar) and you cal also find the creater channel's logo, channel's name, and it's likes and views** 
-![image](https://user-images.githubusercontent.com/93375038/153739944-367ee165-79a2-4a85-86f1-4873d9d14bf3.png)
+**When you will open the landing page,it will show a git related to fashion and there will be different sections. you can visit each section with nav icons and we have done work on women products only so rest will show alert of "product is not available now" , i have already clicked on the menu icon, you can see its look on the below screen shot** 
+
+![image](https://user-images.githubusercontent.com/93375038/153740981-95814f1d-e49a-4c0c-b380-9acf7955d346.png)
 
 
-                                                  **Signup/SignIn Authentication**
+
+                                                    **Signup/SignIn Page**
                                                           
- **When user will click on signup he/she will be redirected to a very simple page of authentication, where you have to put put credentials and token will be create on the basis of your password. and if it matches then it will redirect you to home page again.
+ **When user will click on login he/she will be redirected to create account or login page, where you have to create account and login your self, after login you will be redirected to home page , and your name will be reflected on the navbar.
+ 
+ ![image](https://user-images.githubusercontent.com/93375038/153741056-fa5e8764-ad42-492b-946f-c4539032a8f9.png)
+
 
 
 
                                                     **Search Bar functionality**
-  **When you search any thing on the search bar it will show you result after 1s. because of debouncing functionlaity, because if user have good typing speed then he will only search that result which he want or in other terms only that api will be called, and if user has very less typing speed or he want to search that specific result then within one sec of wait he will get that result**
+  **when user click on the search bar, he/she will be redirect to search page, where whole header will be turned into search bar and user can enter limited input to search bar (for eg:-dress,top,jeans,blazer etc) user can also search by clicking on the tags mentioned below the navbar**
+  ![image](https://user-images.githubusercontent.com/93375038/153741135-ea3b455b-22c0-4eda-a995-43b27360f06f.png)
+
+**after searching on the search bar it will show the results**
+![image](https://user-images.githubusercontent.com/93375038/153741146-f8fe57e0-e488-4c4c-bc6e-7b12c02d53ad.png)
+
+
+  <br/>
+  <br/>
+
+                                                        **Product Page**
+   **In the product page you will get all your search result and there will be a tag named as filter if you click on it , it will show the sorting features on the basis of colors and price.**
+   
+   ![image](https://user-images.githubusercontent.com/93375038/153741200-54107268-8eff-4220-b405-c05a2f83b2d7.png)
+
+
+
+
+                                                    **Selected Proudct Display Page**
+ **after clicking on any product on product page, it will redirect you to selected product display page, where you can get all the details of the products. when you will click on add to cart button present in this page , then product will be added to cart and a popup will show weather you want to go to cart or you want to proceed for the payment page.**
+ 
+ ![image](https://user-images.githubusercontent.com/93375038/153741285-25de19c5-6d49-4691-b85a-cac2f4ebde7e.png)
+
   
-  ![image](https://user-images.githubusercontent.com/93375038/153740135-cf3b9c70-9a46-4b8a-ade1-79dc42ba91db.png)
 
-  <br/>
-  <br/>
+                                                    **Selected Proudct Display Page**
 
+**If you click on go to cart then you will be redirected to cart page, where you can see the total price of the products and can also remove any product if you don't want to but it.**
 
+![image](https://user-images.githubusercontent.com/93375038/153741330-d5c1b4f2-9363-41f9-872c-0a403076a886.png)
 
+**when you click on the continue on the cart page, you will be proceed to payment page where you will select card and put all the required details, and after entering the otp you will be get animated confirmation of succesfull order. and return to home button will also appear along with that.**
 
-)
-  **when you click on the search result for example as i have searched "Popaya" i will click on the popaya and it will now take me to the other page where i will get all the videos related to popaya**
-  ![image](https://user-images.githubusercontent.com/93375038/153740207-815374fb-900a-4500-9328-b6e9fbdc852a.png)
-
-  <br/>
-  <br/>
-
-
-
-
-
-                                                    **Selected video Display Page**
-  **When you click any of the video then it will take you to the play video page where you can watch that video as you normally watch in the youtube. You can also watch it in full screen and can see all the video details like it's description,title,likes,channel owner name, and its subscriber. i have also created the comment section, and will soon introduce the posting of data there, so that you can comment there.**
-![image](https://user-images.githubusercontent.com/93375038/153740276-23051502-3811-4c26-8323-5fe7f1c105ad.png)
-
-  <br/>
-  <br/>
-  
-  
-![image](https://user-images.githubusercontent.com/93375038/153740314-cff3d581-cb1b-4acf-9c01-8fbe42294c29.png)
-
-
-![image](https://user-images.githubusercontent.com/93375038/153740318-9d8e5950-4294-4261-86e2-8282fd9f3ccf.png)
+![image](https://user-images.githubusercontent.com/93375038/153741404-c36d6697-ae7f-419d-a8e8-2e69131f4fb3.png)
 
 
 
