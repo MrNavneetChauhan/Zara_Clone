@@ -83,8 +83,20 @@ HTML || Java Script  || CSS (Hard Coded Data which is saved in local storage )
 
                                                         **Introduction to Landing Page**
  
-![image](https://user-images.githubusercontent.com/93375038/153738847-82830cbb-a14c-47bc-afb1-28e9ca4725a1.png)
 Already clicked on menu bar, and have different icons on the navbar. And you can also visits to the next and previous section.
+![image](https://user-images.githubusercontent.com/93375038/153738847-82830cbb-a14c-47bc-afb1-28e9ca4725a1.png)
 
                                                         **Signup/SignIn Authentication**
+ <ul>
+  <li>
+    user have to create account firset 
+  </li>
+  <li>
+    after creating account user, will be redirected to login page.
+  </li>
+  <li>
+  enter all the credentials and it will take you to the home page.
+  </li>
+  </ul>
+![image](https://user-images.githubusercontent.com/93375038/153738987-9edef2b5-de28-43eb-959a-bffc7d05e270.png)
 
