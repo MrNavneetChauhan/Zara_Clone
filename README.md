@@ -27,38 +27,57 @@ HTML || Java Script  || CSS (Hard Coded Data which is saved in local storage )
   <tr>
     <td>1</td>
         <td>Landing Page</td>
+        <td>animated scroll bars,different sections </td>
+        
   </tr>
   <tr>
         <td>2</td>
         <td>SignIn/SignOut</td>
+        <td>validations to each input</td>
+        
+        
   </tr>
   <tr>
         <td>3</td>
         <td>Search page</td>
+        <td>Click on search bar and it will make whole header a search bar, allow you to search items</td>
+        
   </tr>
   <tr>
       <td>4</td>
         <td>Product Display</td>
+        <td>sorting,filtering,add to cart</td>
+        
   </tr>
   <tr>
         <td>5</td>
             <td>Selected Product Display</td>
+            <td>details of the product</td>
+        
     <tr/>
   <tr>
         <td>6</td>
         <td>Cart</td>
+         <td>total price of items, deletion of item</td>
+        
   </tr>
   <tr>
         <td>7</td>
     <td>Payment Page</td>
+    <td>validation at each input</td>
+        
   </tr>
   <tr>
         <td>8</td>
     <td>OTP Confirmation</td>
+    <td>any random otp required</td>
+        
   </tr>
   <tr>
         <td>9</td>
     <td>Back To Home</td>
+    <td>after entering otp will show animation of confirmation and will take you back to home</td>
+        
   </tr>
 </table>
 
