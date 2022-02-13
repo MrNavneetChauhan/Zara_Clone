@@ -107,3 +107,9 @@ Already clicked on menu bar, and have different icons on the navbar. And you can
 ![image](https://user-images.githubusercontent.com/93375038/153739168-c990eace-bf81-4d64-ae05-546dc5231306.png)
 **when you click on the filter it will show you different kind of functionality like sorting on the basis of color,price etc**
 
+                                                              **Selected Product Display Page**
+**When you click any of the product on the product page it will take you to the selected product display page. where you can find the total details of that produt.
+![image](https://user-images.githubusercontent.com/93375038/153739224-295a99d3-6ec2-4747-975e-6dfcb6204861.png)
+
+                                                              
+
