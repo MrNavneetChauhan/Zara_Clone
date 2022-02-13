@@ -81,3 +81,5 @@ HTML || Java Script  || CSS (Hard Coded Data which is saved in local storage )
   </tr>
 </table>
 
+<button>HTML</button><button>CSS</button><button>JAVA SCRIPT</button>
+
