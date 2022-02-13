@@ -16,6 +16,7 @@ Tech Stack: HTML || CSS || JavaScript
 
 
                                             **Let's visit the Site and explore it's feature**
+                                            
 
   <table>
     <tr>
@@ -29,32 +30,26 @@ Tech Stack: HTML || CSS || JavaScript
       <td>1</td>
           <td>Landing Page</td>
           <td>latest videos, different tags on navbar </td>
-
     </tr>
     <tr>
           <td>2</td>
           <td>SignIn/SignOut</td>
           <td>masai based token's authentication</td>
-
-
     </tr>
     <tr>
           <td>3</td>
           <td>Search page</td>
           <td>Deboucing factor applied on search bar, it will allow api calls after 1sec only, and user will get search results </td>
-
     </tr>
     <tr>
         <td>4</td>
           <td>Search results</td>
           <td>after clicking on search bar result it wll show you results of that particular video in other page</td>
-
     </tr>
     <tr>
           <td>5</td>
               <td>Selected video Display</td>
               <td>When you click on the video it will take you to the playvideo page where you can watch it</td>
-
       <tr/>
   </table>
 
