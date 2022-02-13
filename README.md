@@ -81,6 +81,8 @@ HTML || Java Script  || CSS (Hard Coded Data which is saved in local storage )
   </tr>
 </table>
 
-1> ** Introduction to Landing Page **
+ ** Introduction to Landing Page **
+ 
 ![image](https://user-images.githubusercontent.com/93375038/153738847-82830cbb-a14c-47bc-afb1-28e9ca4725a1.png)
+Already clicked on menu bar, and have different icons on the navbar 
 
