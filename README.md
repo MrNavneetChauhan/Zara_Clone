@@ -101,11 +101,25 @@ Already clicked on menu bar, and have different icons on the navbar. And you can
 
 ![image](https://user-images.githubusercontent.com/93375038/153739078-9ca5f52e-afc5-453e-8125-959f01255d18.png)
 
+
+
+
+
                                                               **Search Bar functionality**
 **when you will click on the search bar, whole header will turn into search bar and you can search (dress,top,jeans and blazer) other searches will not work. and you can also click on the tags given below the search bar.**
 
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/93375038/153739168-c990eace-bf81-4d64-ae05-546dc5231306.png)
 **when you click on the filter it will show you different kind of functionality like sorting on the basis of color,price etc**
+
+
+
+
+
 
                                                               **Selected Product Display Page**
 **When you click any of the product on the product page it will take you to the selected product display page. where you can find the total details of that produt.
