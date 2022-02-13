@@ -1,14 +1,17 @@
-                                          **Introduction to YouTube-Clone**
-  Youtube is a video-streaming platform used by creators across the globe to publish original content.
+                                          **Introduction to Zara-Clone**
+  Zara is a ecommerce website, with a simple and advanced UI with a lot of advanced functionality..
 
 
                                             **Features of the Project**
 
-1) Login and Signup Authentication using Masai API.
-2) Recommended tags on nav bar.
-3) Video owner details and thumbnails
-4) Debouncing functionality.
+11. Login and Signup authentication.
+2. Product Catalogue with Hover Effects and Animation.
+3. Users can sort and filter products.
+4. Cart and Payment Gateway.
+5. OTP-confirmation on Payment.
+
 Tech Stack: HTML || CSS || JavaScript
+Group-Members:4
 
                                            **Tech Stacks used in this Projects**
 
@@ -30,27 +33,51 @@ Tech Stack: HTML || CSS || JavaScript
     <tr>
       <td>1</td>
           <td>Landing Page</td>
-          <td>latest videos, different tags on navbar </td>
+          <td>It will show you different page icons on the navbar, like searchbar,login,help and cart etc. it will also show different sections and you can visit them with help of floating ( > floating nav icon) </td>
     </tr>
     <tr>
           <td>2</td>
-          <td>SignIn/SignOut</td>
-          <td>masai based token's authentication</td>
+          <td>SignIn</td>
+          <td>valdation at each input</td>
     </tr>
     <tr>
          <td>3</td>
-          <td>Search page</td>
-          <td>Deboucing factor applied on search bar, it will allow api calls after 1sec only, and user will get search results </td>
+          <td>Search bar</td>
+          <td> when you will click on search bar whole header will turn into search bar and you can search the items </td>
     </tr>
     <tr>
         <td>4</td>
-          <td>Search results</td>
-          <td>after clicking on search bar result it wll show you results of that particular video in other page</td>
+          <td>product page</td>
+          <td>after entering the item name or selecting the item name it will show you the products page, sorting,filtering are available there </td>
     </tr>
     <tr>
           <td>5</td>
-              <td>Selected video Display</td>
-              <td>When you click on the video it will take you to the playvideo page where you can watch it</td>
+              <td>Selected Product display Display</td>
+              <td>When you click on the product it will take you to the product display page where you can get all details of the product,after adding product to cart ,pop up notification will be there for 3second either to go to cart page or payment page</td>
+      <tr/>
+  
+  <tr>
+          <td>6</td>
+              <td>cart page</td>
+              <td>total amout of products and deletion of selected product</td>
+      <tr/>
+  
+  <td>7</td>
+              <td>payment page</td>
+              <td>validation of at each input like card number should be of 16 digit and cvv should be of 3 digits</td>
+      <tr/>
+  
+       <tr/>
+  
+  <td>8</td>
+              <td>OTP page</td>
+              <td>any random otp will give access to the complete the payment process</td>
+      <tr/>
+  
+  
+  <td>8</td>
+              <td>confirmation page</td>
+              <td>Animated confirmatino page will apear on the page, and also return to home button will appear along with that.</td>
       <tr/>
   </table>
   
