@@ -9,5 +9,6 @@ Zara is a ecommerce website, with a simple and advanced UI with a lot of advance
 4. Cart and Payment Gateway.
 5. OTP-confirmation on Payment.
 
+                                         **Tech Stacks used in this Projects**
 
 
