@@ -15,7 +15,7 @@ Tech Stack: HTML || CSS || JavaScript
   HTML || Java Script  || CSS (Youtube Api used to Fetch data )
 
 
-                                            **Let's visit the Site and explore it's feature**
+                                           **Let's visit the Site and explore it's feature**
                                             
                                             
                                             
@@ -56,19 +56,19 @@ Tech Stack: HTML || CSS || JavaScript
   
   
 
-                                                          **Introduction to Landing Page**
+                                                **Introduction to Landing Page**
 
 **There are different tags on the search bar based on your search result , if you click them it will show result according to them (tags:- All,coding,Memes,css,etc just below the search bar) and you cal also find the creater channel's logo, channel's name, and it's likes and views** 
 ![image](https://user-images.githubusercontent.com/93375038/153739944-367ee165-79a2-4a85-86f1-4873d9d14bf3.png)
 
 
-                                                          **Signup/SignIn Authentication**
+                                                  **Signup/SignIn Authentication**
                                                           
  **When user will click on signup he/she will be redirected to a very simple page of authentication, where you have to put put credentials and token will be create on the basis of your password. and if it matches then it will redirect you to home page again.
 
 
 
-                                                                **Search Bar functionality**
+                                                    **Search Bar functionality**
   **When you search any thing on the search bar it will show you result after 1s. because of debouncing functionlaity, because if user have good typing speed then he will only search that result which he want or in other terms only that api will be called, and if user has very less typing speed or he want to search that specific result then within one sec of wait he will get that result**
   
   ![image](https://user-images.githubusercontent.com/93375038/153740135-cf3b9c70-9a46-4b8a-ade1-79dc42ba91db.png)
@@ -90,7 +90,7 @@ Tech Stack: HTML || CSS || JavaScript
 
 
 
-                                                                **Selected video Display Page**
+                                                    **Selected video Display Page**
   **When you click any of the video then it will take you to the play video page where you can watch that video as you normally watch in the youtube. You can also watch it in full screen and can see all the video details like it's description,title,likes,channel owner name, and its subscriber. i have also created the comment section, and will soon introduce the posting of data there, so that you can comment there.**
 ![image](https://user-images.githubusercontent.com/93375038/153740276-23051502-3811-4c26-8323-5fe7f1c105ad.png)
 
