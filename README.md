@@ -80,4 +80,4 @@ HTML || Java Script  || CSS (Hard Coded Data which is saved in local storage )
         
   </tr>
 </table>
-[Git hub all realeases](https://img.shields.io/badge/HTML-Hypertext%20Markup%20Language-blue)
+
