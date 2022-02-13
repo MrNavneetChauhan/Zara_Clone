@@ -80,6 +80,4 @@ HTML || Java Script  || CSS (Hard Coded Data which is saved in local storage )
         
   </tr>
 </table>
-
-<button>HTML</button><button>CSS</button><button>JAVA SCRIPT</button>
-?style=plastic&logo=appveyor
+https://img.shields.io/badge/HTML-Hypertext%20Markup%20Language-blue
