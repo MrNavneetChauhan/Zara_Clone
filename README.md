@@ -98,5 +98,6 @@ Already clicked on menu bar, and have different icons on the navbar. And you can
   enter all the credentials and it will take you to the home page.
   </li>
   </ul>
-![image](https://user-images.githubusercontent.com/93375038/153738987-9edef2b5-de28-43eb-959a-bffc7d05e270.png)
+
+![image](https://user-images.githubusercontent.com/93375038/153739078-9ca5f52e-afc5-453e-8125-959f01255d18.png)
 
