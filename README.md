@@ -81,3 +81,5 @@ HTML || Java Script  || CSS (Hard Coded Data which is saved in local storage )
   </tr>
 </table>
 
+1> ** Introduction to Landing Page **
+![image](https://user-images.githubusercontent.com/93375038/153738824-46b1b91f-5bab-4d74-b22a-b7ce92cd0c5a.png)
