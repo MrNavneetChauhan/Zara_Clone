@@ -58,30 +58,21 @@ Tech Stack: HTML || CSS || JavaScript
 
                                                           **Introduction to Landing Page**
 
-  Already clicked on menu bar, and have different icons on the navbar. And you can also visits to the next and previous section.
-  ![image](https://user-images.githubusercontent.com/93375038/153738847-82830cbb-a14c-47bc-afb1-28e9ca4725a1.png)
+**There are different tags on the search bar based on your search result , if you click them it will show result according to them (tags:- All,coding,Memes,css,etc just below the search bar) and you cal also find the creater channel's logo, channel's name, and it's likes and views** 
+![image](https://user-images.githubusercontent.com/93375038/153739944-367ee165-79a2-4a85-86f1-4873d9d14bf3.png)
+
 
                                                           **Signup/SignIn Authentication**
-   <ul>
-    <li>
-      user have to create account firset 
-    </li>
-    <li>
-      after creating account user, will be redirected to login page.
-    </li>
-    <li>
-    enter all the credentials and it will take you to the home page.
-    </li>
-    </ul>
-
-  ![image](https://user-images.githubusercontent.com/93375038/153739078-9ca5f52e-afc5-453e-8125-959f01255d18.png)
-
-
+                                                          
+ **When user will click on signup he/she will be redirected to a very simple page of authentication, where you have to put put credentials and token will be create on the basis of your password. and if it matches then it will redirect you to home page again.
 
 
 
                                                                 **Search Bar functionality**
-  **when you will click on the search bar, whole header will turn into search bar and you can search (dress,top,jeans and blazer) other searches will not work. and you can also click on the tags given below the search bar.**
+  **When you search any thing on the search bar it will show you result after 1s. because of debouncing functionlaity, because if user have good typing speed then he will only search that result which he want or in other terms only that api will be called, and if user has very less typing speed or he want to search that specific result then within one sec of wait he will get that result**
+  
+  ![image](https://user-images.githubusercontent.com/93375038/153740135-cf3b9c70-9a46-4b8a-ade1-79dc42ba91db.png)
+
   <br/>
   <br/>
 
