@@ -17,6 +17,8 @@ Tech Stack: HTML || CSS || JavaScript
 
                                             **Let's visit the Site and explore it's feature**
                                             
+                                            
+                                            
 
   <table>
     <tr>
@@ -25,7 +27,6 @@ Tech Stack: HTML || CSS || JavaScript
           <th>Features</th>
       <th>Remarks</th>
     </tr>
-
     <tr>
       <td>1</td>
           <td>Landing Page</td>
@@ -37,7 +38,7 @@ Tech Stack: HTML || CSS || JavaScript
           <td>masai based token's authentication</td>
     </tr>
     <tr>
-          <td>3</td>
+         <td>3</td>
           <td>Search page</td>
           <td>Deboucing factor applied on search bar, it will allow api calls after 1sec only, and user will get search results </td>
     </tr>
@@ -52,6 +53,8 @@ Tech Stack: HTML || CSS || JavaScript
               <td>When you click on the video it will take you to the playvideo page where you can watch it</td>
       <tr/>
   </table>
+  
+  
 
                                                           **Introduction to Landing Page**
 
