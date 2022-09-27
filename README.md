@@ -4,7 +4,7 @@
 
                                             **Features of the Project**
 
-11. Login and Signup authentication.
+1. Login and Signup authentication.
 2. Product Catalogue with Hover Effects and Animation.
 3. Users can sort and filter products.
 4. Cart and Payment Gateway.
