@@ -26,7 +26,6 @@ var userName = JSON.parse(localStorage.getItem("userName"))
 if(userName == null){
   login.textContent = "LOGIN"
 }else{
-
   login.textContent = userName
 }
 
@@ -90,7 +89,15 @@ function goToCartPage(){
   }
 
   function goToPaymentPage(){
+    if(!userName){
+      alert("You have to login first")
+    }
+    else  if(cartcnt == 0){
+      alert("You cart is empty!")
+    }else{
+
       window.location.href = "payment.html"
+    }
   }
 
 
