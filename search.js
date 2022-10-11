@@ -40,11 +40,7 @@ var e1 = document.getElementById("e1")
 var del = document.getElementById("f")
 var cartcnt = document.getElementById("cartcnt")
 var cartItemCount = JSON.parse(localStorage.getItem("cartItemCount"))
-if(cartItemCount == null){
-  cartcnt.textContent = 0
-}else{
-  cartcnt.textContent = cartItemCount
-}
+cartcnt.textContent = localStorage.getItem("count") || 0
 var fullSearch = document.getElementById("fullSearch")
 var userName = JSON.parse(localStorage.getItem("userName"))
 if(userName == null){
