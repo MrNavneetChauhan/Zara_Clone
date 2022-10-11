@@ -31,12 +31,7 @@ if(userName == null){
   login.textContent = userName
 }
 
-var cartItemCount = JSON.parse(localStorage.getItem("cartItemCount"))
-if(cartItemCount == null){
-  cartcnt.textContent = 0
-}else{
-  cartcnt.textContent = cartItemCount
-}
+cartcnt.textContent = localStorage.getItem("count") || 0
 
 //=============functionSelection====================//
 
