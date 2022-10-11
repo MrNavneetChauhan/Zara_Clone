@@ -19,11 +19,8 @@ var cart0 = document.getElementById("cart0");
 var help = document.getElementById("help");
 var cartcnt = document.getElementById("cartcnt");
 var cartItemCount = JSON.parse(localStorage.getItem("cartItemCount"))
-if(cartItemCount == null){
-  cartcnt.textContent = 0
-}else{
-  cartcnt.textContent = cartItemCount
-}
+cartcnt.textContent = localStorage.getItem("count") || 0
+
 var conti = document.getElementById("continue")
 var userName = JSON.parse(localStorage.getItem("userName"))
 if(userName == null){
@@ -177,8 +174,8 @@ first.addEventListener("click",goToWomenPage);
 
 function deleteCartItem(item,index){
 cartStore.splice(index,1)
-// console.log(item)
-cartItemCount = cartItemCount - 1
+localStorage.setItem("count",cartStore.length)
+cartcnt.textContent = localStorage.getItem("count")
 console.log(cartItemCount)
 localStorage.setItem("cartItemCount",JSON.stringify(cartItemCount))
 cartTotalPrice = cartTotalPrice - item.price
