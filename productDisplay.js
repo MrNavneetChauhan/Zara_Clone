@@ -109,7 +109,7 @@ function closeFilterPage() {
 }
 
 function goToProductPage() {
-  var anotherdata = JSON.parse(localStorage.getItem("anotherData"));
+  var anotherdata = JSON.parse(localStorage.getItem("zaraProductData"));
   displayProduct(anotherdata);
 }
 
