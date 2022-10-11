@@ -92,7 +92,7 @@ function goToCartPage(){
     if(!userName){
       alert("You have to login first")
     }
-    else  if(cartcnt == 0){
+    else  if(cartcnt.textContent == 0){
       alert("You cart is empty!")
     }else{
 
