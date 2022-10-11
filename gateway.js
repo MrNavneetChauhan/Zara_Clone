@@ -18,12 +18,7 @@ var login = document.getElementById("login")
 var cart0 = document.getElementById("cart0");
 var help = document.getElementById("help");
 var cartcnt = document.getElementById("cartcnt")
-var cartItemCount = JSON.parse(localStorage.getItem("cartItemCount"))
-if(cartItemCount == null){
-    cartcnt.textContent = 0
-  }else{
-    cartcnt.textContent = cartItemCount
-  }
+cartcnt.textContent = localStorage.getItem("count") || 0
 var conti = document.getElementById("continue")
 var crdn = document.getElementById("crdn");
 var cv = document.getElementById("cv")
