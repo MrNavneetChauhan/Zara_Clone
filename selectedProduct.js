@@ -119,6 +119,7 @@ if(userName == null){
   login.textContent = userName
 }
 
+cartcnt.textContent = localStorage.getItem("count") || 0
 price.textContent = selectedData.price;
 productName.textContent = selectedData.name;
 desc.textContent = selectedData.desc;
@@ -131,7 +132,6 @@ basketImg.setAttribute("src",selectedData.image_url)
 
 
 function addItemsToCart(){
-  cartItemCount++
   cartStore.push(selectedData)
   cartTotalPrice += selectedData.price
   localStorage.setItem("cartItemCount",JSON.stringify(cartItemCount))
@@ -139,10 +139,9 @@ function addItemsToCart(){
  localStorage.setItem("cartStore",JSON.stringify(cartStore))
  cartBtn2.style.display = "block"
  basketBar.style.display = "block"
-
- cartcnt.textContent = cartItemCount
  setTimeout("hideDiv()",2000)
-
+ cartcnt.textContent = cartStore.length;
+localStorage.setItem("count",cartStore.length)
 }
 
 function hideDiv(){
